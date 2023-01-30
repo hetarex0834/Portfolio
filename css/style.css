@@ -3,7 +3,13 @@ body {
   color: white;
 }
 
+.navbar {
+  position: fixed;
+  width: 100%;
+}
+
 #header {
+  padding-top: 56px;
   background-color: darkslategray;
   height: 400px;
   display: flex;
