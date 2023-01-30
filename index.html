@@ -9,34 +9,32 @@
     <link href="css/style.min.css" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Portfolio</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#profile">Profile</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#skill">Skill</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#article">Article</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
-                        </li>
-                    </form>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#profile">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#skill">Skill</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#article">Article</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#contact">Contact</a>
+                    </li>
+                </form>
             </div>
-        </nav>
-    </header>
+        </div>
+    </nav>
 
-    <div class="container-fluid" id="big-image">
+    <div class="container-fluid" id="header">
         <div class="row">
             <h1>Portfolio</h1>
             <p>~by Reiji Ogura~</p>
@@ -59,15 +57,37 @@
 
     <div class="container" id="article">
         <h1>Article</h1>
-        <div class="row">
-            
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/SudokuCracker01.png" class="card-img-top" alt="ナンプレ解読システム">
+                    <div class="card-body">
+                        <h5 class="card-title">ナンプレ解読システム</h5>
+                        <p class="card-text">ナンプレを解読できるWindowsアプリケーションです。</p>
+                        <p class="card-skill">C#/Windows Forms</p>
+                        <p class="card-link"><a href="https://github.com/hetarex0834/SudokuCracker.git">Github</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/SimpleHKBook01.png" class="card-img-top" alt="シンプル家計簿">
+                    <div class="card-body">
+                        <h5 class="card-title">シンプル家計簿</h5>
+                        <p class="card-text">シンプルにお金を管理できるWPFアプリケーションです。</p>
+                        <p class="card-skill">C#/WPF/XAML/XML</p>
+                        <p class="card-link"><a href="https://github.com/hetarex0834/SimpleHKBook.git">Github</a></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="container" id="contact">
         <h1>Contact</h1>
-        <div class="row">
-            
+        <div class="row address">
+            <i class="fa-brands fa-google"></i>
+            <p>hetarex0834@gmail.com</p>
         </div>
     </div>
     
@@ -75,5 +95,6 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/89b6b5fa0b.js" crossorigin="anonymous"></script>
 </body>
 </html>
