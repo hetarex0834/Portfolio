@@ -1,29 +1,48 @@
 @charset "UTF-8";
+@use "variables" as var;
 
-body{
-    background-color: #212529;
+body {
+    background-color: var.$backGray;
     color: white;
 }
 
-#big-image{
-    background-color: darkslategray;
+#big-image {
+    background-color: var.$container;
     height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 
-    h1{
+    h1 {
         font-size: 60px;
         letter-spacing: 10px;
     }
 
-    p{
-        font-size: 25px;
-        font-weight: bold;
+    p {
+        font: {
+            size: 25px;
+            weight: bold;
+        }
     }
 }
 
-footer{
+.container {
+    margin: {
+        top: 50px;
+    }
+    background-color: var.$container;
+    border-radius: 5px;
+    min-height: 200px;
+    h1{
+        text-align: center;
+    }
+}
+
+footer {
+    padding: {
+        top: 50px;
+        bottom: 20px;
+    }
     text-align: center;
 }
