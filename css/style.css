@@ -8,7 +8,7 @@ body {
   width: 100%;
 }
 
-#header {
+#title {
   padding-top: 56px;
   background-color: darkslategray;
   height: 400px;
@@ -17,11 +17,11 @@ body {
   justify-content: center;
   text-align: center;
 }
-#header h1 {
+#title h1 {
   font-size: 60px;
   letter-spacing: 10px;
 }
-#header p {
+#title p {
   font-size: 25px;
   font-weight: bold;
 }
@@ -44,6 +44,10 @@ body {
   .container {
     border-radius: 5px;
   }
+}
+
+#profile p {
+  text-align: center;
 }
 
 #skill .row {
