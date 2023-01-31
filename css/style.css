@@ -46,14 +46,27 @@ body {
   }
 }
 
+#skill .row {
+  justify-content: center;
+}
+
+.table {
+  max-width: 1000px;
+  color: white;
+}
+.table tr :first-child {
+  width: 200px;
+}
+.table td {
+  border-color: #212529;
+}
+
 .card {
   color: black;
 }
 
 .card-body {
   padding-top: 10px;
-}
-.card-body > :not(.card-text) {
   text-align: center;
 }
 
@@ -66,7 +79,21 @@ body {
 }
 
 .card-title {
+  margin-bottom: 15px;
   font-size: 25px;
+}
+
+.card-text {
+  margin-bottom: 5px;
+}
+
+.card-skill {
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+.card-link {
+  margin-bottom: 5px;
 }
 
 .address * {

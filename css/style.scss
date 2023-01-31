@@ -59,6 +59,27 @@ body {
     }
 }
 
+#skill {
+    .row {
+        justify-content: center;
+    }
+}
+
+.table {
+    max-width: 1000px;
+    color: white;
+    tr {
+        :first-child {
+            width: 200px;
+        }
+    }
+    td {
+        border: {
+            color: var.$backGray; 
+        };
+    }
+}
+
 .card {
     color: black;
 }
@@ -67,9 +88,7 @@ body {
     padding: {
         top: 10px;
     }
-    > :not(.card-text) {
-        text-align: center;
-    }
+    text-align: center;
 }
 
 .card-img-top {
@@ -82,7 +101,29 @@ body {
 }
 
 .card-title {
+    margin: {
+        bottom: 15px;
+    }
     font-size: 25px;
+}
+
+.card-text {
+    margin: {
+        bottom: 5px;
+    }
+}
+
+.card-skill {
+    margin: {
+        top: 20px;
+        bottom: 25px;
+    }
+}
+
+.card-link {
+    margin: {
+        bottom: 5px;
+    }
 }
 
 .address {
